@@ -46,6 +46,15 @@ class MainCoordinator: NSObject, Coordinator, ServicesViewControllerDelegate, Se
         controller.delegate = self
         controller.service = service
         self.navigationController.pushViewController(controller, animated: true)
+        if let owner = service.owner {
+            NetworkService.profile(id: owner) { (user, error) in
+                if let error = error {
+                    self.navigationController.warningAlert(message: error)
+                } else {
+                    controller.set(user: user)
+                }
+            }
+        }
     }
     
     // MARK: ServiceViewControllerDelegate

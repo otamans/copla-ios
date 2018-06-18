@@ -17,6 +17,7 @@ protocol ServiceViewControllerDelegate {
 class ServiceViewController: UIViewController {
 
     var service: Service?
+    var user: User?
     
     var delegate: ServiceViewControllerDelegate?
     
@@ -42,6 +43,9 @@ class ServiceViewController: UIViewController {
         
         self.title = self.service?.name
 
+        self.userPhoto.layer.cornerRadius = self.userPhoto.frame.size.height / 2
+        self.userPhoto.layer.masksToBounds = true
+        
         if let provide = self.service?.provide {
             self.isProvide.text = provide == .sell ? "Получить" : "Предоставлять"
         }
@@ -68,6 +72,25 @@ class ServiceViewController: UIViewController {
                     }
                 }
             }
+        }
+    }
+    
+    func set(user: User?) {
+        if let photo = user?.photo {
+            Alamofire.request(photo, method: .get).response { (response) in
+                DispatchQueue.main.async {
+                    if let image = response.data {
+                        self.userPhoto.image = UIImage(data: image)
+                    }
+                }
+            }
+        }
+        if let fname = user?.first_name,
+            let lname = user?.last_name {
+            self.username.text = "\(fname) \(lname)"
+        }
+        if let point = user?.point_amount {
+            self.userRate.text = String(point)
         }
     }
     

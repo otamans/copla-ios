@@ -107,14 +107,25 @@ class NetworkService: NSObject {
         }
     }
     
-    static func profile(id: Int, completionHandler: @escaping (Data?) -> ()) {
-        Alamofire.request(servicesEndpoint, method: .get).responseJSON { (response) in
+    static func profile(id: Int, completionHandler: @escaping (User?, String?) -> ()) {
+        let url = String(format: profileEndpoint, id)
+        var user: User?
+        Alamofire.request(url, method: .get).responseJSON { (response) in
             switch response.result {
             case .success(let JSON):
-                print(JSON)
+                if let dictionary = JSON as? NSDictionary {
+                    print(dictionary)
+
+                    if let json = self.jsonString(from: dictionary) {
+                        if let jsonData = json.data(using: .utf8) {
+                            user = try? JSONDecoder().decode(User.self, from: jsonData)
+                        }
+                    }
+                }
+                completionHandler(user, nil)
                 break
             case .failure(let error):
-                print(error)
+                completionHandler(nil, error.localizedDescription)
             }
         }
     }

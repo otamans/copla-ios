@@ -39,6 +39,7 @@
 		BD958EEB20D7465F003321C7 /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EEA20D7465F003321C7 /* FiltersViewController.swift */; };
 		BD958EED20D748A6003321C7 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EEC20D748A6003321C7 /* FilterTableViewCell.swift */; };
 		BD958EF220D76738003321C7 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EF120D76738003321C7 /* ServiceViewController.swift */; };
+		BD958EF420D77FAA003321C7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EF320D77FAA003321C7 /* User.swift */; };
 		F052338BD14FACA3336C199C /* Pods_Copla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0CEEE848C5ABCB63EB688E /* Pods_Copla.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +92,7 @@
 		BD958EEA20D7465F003321C7 /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
 		BD958EEC20D748A6003321C7 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
 		BD958EF120D76738003321C7 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		BD958EF320D77FAA003321C7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F945638D61C7E6354A5CF677 /* Pods-Copla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Copla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Copla/Pods-Copla.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,6 +221,7 @@
 			children = (
 				BD958EBB20D6ACD0003321C7 /* Authorization.swift */,
 				BD958EE020D71076003321C7 /* Service.swift */,
+				BD958EF320D77FAA003321C7 /* User.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				BD958EF220D76738003321C7 /* ServiceViewController.swift in Sources */,
 				BD958ED020D6C7FB003321C7 /* ServicesViewController.swift in Sources */,
 				BD958E9220D64C43003321C7 /* AppDelegate.swift in Sources */,
+				BD958EF420D77FAA003321C7 /* User.swift in Sources */,
 				BD958EDF20D6FE85003321C7 /* MainCoordinator.swift in Sources */,
 				BD958EEB20D7465F003321C7 /* FiltersViewController.swift in Sources */,
 				BD958EBC20D6ACD0003321C7 /* Authorization.swift in Sources */,
@@ -536,7 +540,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -590,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
