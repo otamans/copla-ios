@@ -12,10 +12,25 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var coordinator: InitialCoordinator?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let initialController = InitialViewController.controller()
+
+        let navigationController = UINavigationController(rootViewController: initialController)
+        navigationController.navigationBar.barTintColor = UIColor.white
+
+        let navigationBarAppearace = UINavigationBar.appearance()
+        navigationBarAppearace.tintColor = UIColor.black 
+        navigationBarAppearace.barTintColor = UIColor.white
+        
+        self.window?.rootViewController = navigationController
+        self.window?.makeKeyAndVisible()
+        
+        self.coordinator = InitialCoordinator(with: navigationController)
+        self.coordinator?.start()
+        
         return true
     }
 

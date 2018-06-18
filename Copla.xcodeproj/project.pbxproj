@@ -12,6 +12,34 @@
 		BD958E9920D64C44003321C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD958E9820D64C44003321C7 /* Assets.xcassets */; };
 		BD958E9C20D64C44003321C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD958E9A20D64C44003321C7 /* LaunchScreen.storyboard */; };
 		BD958EA720D64C44003321C7 /* CoplaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EA620D64C44003321C7 /* CoplaTests.swift */; };
+		BD958EB320D69392003321C7 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EB220D69392003321C7 /* RegistrationViewController.swift */; };
+		BD958EB620D69CA5003321C7 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EB520D69CA5003321C7 /* ActionButton.swift */; };
+		BD958EB920D69D58003321C7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EB820D69D58003321C7 /* Colors.swift */; };
+		BD958EBC20D6ACD0003321C7 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EBB20D6ACD0003321C7 /* Authorization.swift */; };
+		BD958EBF20D6AF66003321C7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EBE20D6AF66003321C7 /* Coordinator.swift */; };
+		BD958EC120D6AFE7003321C7 /* AuthorizationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EC020D6AFE7003321C7 /* AuthorizationCoordinator.swift */; };
+		BD958EC320D6B0E8003321C7 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EC220D6B0E8003321C7 /* UIViewController.swift */; };
+		BD958EC520D6B2E1003321C7 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EC420D6B2E1003321C7 /* InitialViewController.swift */; };
+		BD958EC720D6B3E1003321C7 /* InitialCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EC620D6B3E1003321C7 /* InitialCoordinator.swift */; };
+		BD958EC920D6BBF6003321C7 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EC820D6BBF6003321C7 /* UINavigationController.swift */; };
+		BD958ECB20D6BF4F003321C7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958ECA20D6BF4F003321C7 /* LoginViewController.swift */; };
+		BD958ECE20D6C7D5003321C7 /* AdvertisementsCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958ECD20D6C7D5003321C7 /* AdvertisementsCellDataSource.swift */; };
+		BD958ED020D6C7FB003321C7 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958ECF20D6C7FB003321C7 /* ServicesViewController.swift */; };
+		BD958ED320D6CA74003321C7 /* ServiceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958ED120D6CA74003321C7 /* ServiceCollectionViewCell.swift */; };
+		BD958ED420D6CA74003321C7 /* ServiceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD958ED220D6CA74003321C7 /* ServiceCollectionViewCell.xib */; };
+		BD958ED620D6DEE8003321C7 /* ServicesCellDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958ED520D6DEE8003321C7 /* ServicesCellDataSource.swift */; };
+		BD958ED920D6F18E003321C7 /* Plans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958ED820D6F18E003321C7 /* Plans.swift */; };
+		BD958EDD20D6F4C6003321C7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EDC20D6F4C6003321C7 /* NetworkService.swift */; };
+		BD958EDF20D6FE85003321C7 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EDE20D6FE85003321C7 /* MainCoordinator.swift */; };
+		BD958EE120D71076003321C7 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EE020D71076003321C7 /* Service.swift */; };
+		BD958EE320D710CE003321C7 /* Provide.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EE220D710CE003321C7 /* Provide.swift */; };
+		BD958EE520D7116F003321C7 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EE420D7116F003321C7 /* File.swift */; };
+		BD958EE720D73021003321C7 /* ServicesQuerying.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EE620D73021003321C7 /* ServicesQuerying.swift */; };
+		BD958EE920D745D6003321C7 /* FilterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EE820D745D6003321C7 /* FilterItem.swift */; };
+		BD958EEB20D7465F003321C7 /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EEA20D7465F003321C7 /* FiltersViewController.swift */; };
+		BD958EED20D748A6003321C7 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EEC20D748A6003321C7 /* FilterTableViewCell.swift */; };
+		BD958EF220D76738003321C7 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958EF120D76738003321C7 /* ServiceViewController.swift */; };
+		F052338BD14FACA3336C199C /* Pods_Copla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0CEEE848C5ABCB63EB688E /* Pods_Copla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41626CF365461FB891E63925 /* Pods-Copla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Copla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Copla/Pods-Copla.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0CEEE848C5ABCB63EB688E /* Pods_Copla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Copla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD958E8E20D64C43003321C7 /* Copla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Copla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD958E9120D64C43003321C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD958E9620D64C43003321C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +64,34 @@
 		BD958EA220D64C44003321C7 /* CoplaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoplaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD958EA620D64C44003321C7 /* CoplaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoplaTests.swift; sourceTree = "<group>"; };
 		BD958EA820D64C44003321C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD958EB220D69392003321C7 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		BD958EB520D69CA5003321C7 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		BD958EB820D69D58003321C7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		BD958EBB20D6ACD0003321C7 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		BD958EBE20D6AF66003321C7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		BD958EC020D6AFE7003321C7 /* AuthorizationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationCoordinator.swift; sourceTree = "<group>"; };
+		BD958EC220D6B0E8003321C7 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		BD958EC420D6B2E1003321C7 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		BD958EC620D6B3E1003321C7 /* InitialCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCoordinator.swift; sourceTree = "<group>"; };
+		BD958EC820D6BBF6003321C7 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		BD958ECA20D6BF4F003321C7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD958ECD20D6C7D5003321C7 /* AdvertisementsCellDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementsCellDataSource.swift; sourceTree = "<group>"; };
+		BD958ECF20D6C7FB003321C7 /* ServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		BD958ED120D6CA74003321C7 /* ServiceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD958ED220D6CA74003321C7 /* ServiceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServiceCollectionViewCell.xib; sourceTree = "<group>"; };
+		BD958ED520D6DEE8003321C7 /* ServicesCellDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesCellDataSource.swift; sourceTree = "<group>"; };
+		BD958ED820D6F18E003321C7 /* Plans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plans.swift; sourceTree = "<group>"; };
+		BD958EDC20D6F4C6003321C7 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BD958EDE20D6FE85003321C7 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		BD958EE020D71076003321C7 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BD958EE220D710CE003321C7 /* Provide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provide.swift; sourceTree = "<group>"; };
+		BD958EE420D7116F003321C7 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BD958EE620D73021003321C7 /* ServicesQuerying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesQuerying.swift; sourceTree = "<group>"; };
+		BD958EE820D745D6003321C7 /* FilterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterItem.swift; sourceTree = "<group>"; };
+		BD958EEA20D7465F003321C7 /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		BD958EEC20D748A6003321C7 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		BD958EF120D76738003321C7 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		F945638D61C7E6354A5CF677 /* Pods-Copla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Copla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Copla/Pods-Copla.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F052338BD14FACA3336C199C /* Pods_Copla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +113,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0965FAA637D0D26139B9CE5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41626CF365461FB891E63925 /* Pods-Copla.debug.xcconfig */,
+				F945638D61C7E6354A5CF677 /* Pods-Copla.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC4D6901CF9D0118F9381EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0CEEE848C5ABCB63EB688E /* Pods_Copla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD958E8520D64C42003321C7 = {
 			isa = PBXGroup;
 			children = (
 				BD958E9020D64C43003321C7 /* Copla */,
 				BD958EA520D64C44003321C7 /* CoplaTests */,
 				BD958E8F20D64C43003321C7 /* Products */,
+				0965FAA637D0D26139B9CE5F /* Pods */,
+				BC4D6901CF9D0118F9381EFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +153,15 @@
 		BD958E9020D64C43003321C7 /* Copla */ = {
 			isa = PBXGroup;
 			children = (
+				BD958EDB20D6F367003321C7 /* manager */,
+				BD958EDA20D6F232003321C7 /* class */,
+				BD958ED720D6F0FB003321C7 /* enum */,
+				BD958ECC20D6C7A0003321C7 /* data source */,
+				BD958EBD20D6AF51003321C7 /* coordinators */,
+				BD958EBA20D6ACC1003321C7 /* models */,
+				BD958EB720D69D48003321C7 /* extensions */,
+				BD958EB420D69C84003321C7 /* View */,
+				BD958EB120D69364003321C7 /* View Controllers */,
 				BD958E9120D64C43003321C7 /* AppDelegate.swift */,
 				BD958E9520D64C43003321C7 /* Main.storyboard */,
 				BD958E9820D64C44003321C7 /* Assets.xcassets */,
@@ -93,6 +180,96 @@
 			path = CoplaTests;
 			sourceTree = "<group>";
 		};
+		BD958EB120D69364003321C7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD958EC420D6B2E1003321C7 /* InitialViewController.swift */,
+				BD958EB220D69392003321C7 /* RegistrationViewController.swift */,
+				BD958ECA20D6BF4F003321C7 /* LoginViewController.swift */,
+				BD958ECF20D6C7FB003321C7 /* ServicesViewController.swift */,
+				BD958EEA20D7465F003321C7 /* FiltersViewController.swift */,
+				BD958EF120D76738003321C7 /* ServiceViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BD958EB420D69C84003321C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD958EB520D69CA5003321C7 /* ActionButton.swift */,
+				BD958ED120D6CA74003321C7 /* ServiceCollectionViewCell.swift */,
+				BD958ED220D6CA74003321C7 /* ServiceCollectionViewCell.xib */,
+				BD958EEC20D748A6003321C7 /* FilterTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD958EB720D69D48003321C7 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD958EB820D69D58003321C7 /* Colors.swift */,
+				BD958EC220D6B0E8003321C7 /* UIViewController.swift */,
+				BD958EC820D6BBF6003321C7 /* UINavigationController.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		BD958EBA20D6ACC1003321C7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				BD958EBB20D6ACD0003321C7 /* Authorization.swift */,
+				BD958EE020D71076003321C7 /* Service.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		BD958EBD20D6AF51003321C7 /* coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				BD958EBE20D6AF66003321C7 /* Coordinator.swift */,
+				BD958EC620D6B3E1003321C7 /* InitialCoordinator.swift */,
+				BD958EC020D6AFE7003321C7 /* AuthorizationCoordinator.swift */,
+				BD958EDE20D6FE85003321C7 /* MainCoordinator.swift */,
+			);
+			path = coordinators;
+			sourceTree = "<group>";
+		};
+		BD958ECC20D6C7A0003321C7 /* data source */ = {
+			isa = PBXGroup;
+			children = (
+				BD958ECD20D6C7D5003321C7 /* AdvertisementsCellDataSource.swift */,
+				BD958ED520D6DEE8003321C7 /* ServicesCellDataSource.swift */,
+			);
+			path = "data source";
+			sourceTree = "<group>";
+		};
+		BD958ED720D6F0FB003321C7 /* enum */ = {
+			isa = PBXGroup;
+			children = (
+				BD958ED820D6F18E003321C7 /* Plans.swift */,
+				BD958EE220D710CE003321C7 /* Provide.swift */,
+				BD958EE420D7116F003321C7 /* File.swift */,
+			);
+			path = enum;
+			sourceTree = "<group>";
+		};
+		BD958EDA20D6F232003321C7 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				BD958EE620D73021003321C7 /* ServicesQuerying.swift */,
+				BD958EE820D745D6003321C7 /* FilterItem.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		BD958EDB20D6F367003321C7 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				BD958EDC20D6F4C6003321C7 /* NetworkService.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD958EAB20D64C44003321C7 /* Build configuration list for PBXNativeTarget "Copla" */;
 			buildPhases = (
+				AA1FAC9135D0947AA5D0316C /* [CP] Check Pods Manifest.lock */,
 				BD958E8A20D64C43003321C7 /* Sources */,
 				BD958E8B20D64C43003321C7 /* Frameworks */,
 				BD958E8C20D64C43003321C7 /* Resources */,
+				54BEFCF8EDFF2237F22E5AD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +355,7 @@
 			files = (
 				BD958E9C20D64C44003321C7 /* LaunchScreen.storyboard in Resources */,
 				BD958E9920D64C44003321C7 /* Assets.xcassets in Resources */,
+				BD958ED420D6CA74003321C7 /* ServiceCollectionViewCell.xib in Resources */,
 				BD958E9720D64C43003321C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,12 +369,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54BEFCF8EDFF2237F22E5AD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Copla/Pods-Copla-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Copla/Pods-Copla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA1FAC9135D0947AA5D0316C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Copla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BD958E8A20D64C43003321C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD958EE920D745D6003321C7 /* FilterItem.swift in Sources */,
+				BD958EE720D73021003321C7 /* ServicesQuerying.swift in Sources */,
+				BD958ED320D6CA74003321C7 /* ServiceCollectionViewCell.swift in Sources */,
+				BD958ECB20D6BF4F003321C7 /* LoginViewController.swift in Sources */,
+				BD958ED620D6DEE8003321C7 /* ServicesCellDataSource.swift in Sources */,
+				BD958EB320D69392003321C7 /* RegistrationViewController.swift in Sources */,
+				BD958EDD20D6F4C6003321C7 /* NetworkService.swift in Sources */,
+				BD958EB920D69D58003321C7 /* Colors.swift in Sources */,
+				BD958EC920D6BBF6003321C7 /* UINavigationController.swift in Sources */,
+				BD958EBF20D6AF66003321C7 /* Coordinator.swift in Sources */,
+				BD958EE320D710CE003321C7 /* Provide.swift in Sources */,
+				BD958EE520D7116F003321C7 /* File.swift in Sources */,
+				BD958EC720D6B3E1003321C7 /* InitialCoordinator.swift in Sources */,
+				BD958EC520D6B2E1003321C7 /* InitialViewController.swift in Sources */,
+				BD958EC120D6AFE7003321C7 /* AuthorizationCoordinator.swift in Sources */,
+				BD958EED20D748A6003321C7 /* FilterTableViewCell.swift in Sources */,
+				BD958ED920D6F18E003321C7 /* Plans.swift in Sources */,
+				BD958EF220D76738003321C7 /* ServiceViewController.swift in Sources */,
+				BD958ED020D6C7FB003321C7 /* ServicesViewController.swift in Sources */,
 				BD958E9220D64C43003321C7 /* AppDelegate.swift in Sources */,
+				BD958EDF20D6FE85003321C7 /* MainCoordinator.swift in Sources */,
+				BD958EEB20D7465F003321C7 /* FiltersViewController.swift in Sources */,
+				BD958EBC20D6ACD0003321C7 /* Authorization.swift in Sources */,
+				BD958EC320D6B0E8003321C7 /* UIViewController.swift in Sources */,
+				BD958EE120D71076003321C7 /* Service.swift in Sources */,
+				BD958ECE20D6C7D5003321C7 /* AdvertisementsCellDataSource.swift in Sources */,
+				BD958EB620D69CA5003321C7 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +601,7 @@
 		};
 		BD958EAC20D64C44003321C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41626CF365461FB891E63925 /* Pods-Copla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +620,7 @@
 		};
 		BD958EAD20D64C44003321C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F945638D61C7E6354A5CF677 /* Pods-Copla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
